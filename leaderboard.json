@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Gustavo",
+        "pontuacao": 99999,
+        "tempo_sobrevivido": 31,
+        "wave_maxima": 2,
+        "nivel_maximo": 4,
+        "data": "28/03/2025"
+    },
+    {
+        "nome": "Wagner",
+        "pontuacao": 1855,
+        "tempo_sobrevivido": 267,
+        "wave_maxima": 12,
+        "nivel_maximo": 12,
+        "data": "28/03/2025"
+    },
+    {
+        "nome": "g",
+        "pontuacao": 29,
+        "tempo_sobrevivido": 20,
+        "wave_maxima": 2,
+        "nivel_maximo": 3,
+        "data": "29/03/2025"
+    }
+]
