@@ -1,4 +1,4 @@
-# Hack'n'Slash Uninter - Secret wave
+# Hack'n'Slash - Secret wave
 
 Este é um protótipo de jogo em Python no estilo Hack'n'Slash, onde o 
 herói permanece no centro da tela, enquanto hordas de monstros o perseguem.
@@ -8,7 +8,7 @@ herói permanece no centro da tela, enquanto hordas de monstros o perseguem.
 ======================
 
  
-HacknSlashUninter/                          
+HacknSlash-SecretWave/                          
 │
 ├── assets/             
 │   └── Drop/   

@@ -8,12 +8,52 @@
         "data": "28/03/2025"
     },
     {
+        "nome": "CRV",
+        "pontuacao": 3382,
+        "tempo_sobrevivido": 442,
+        "wave_maxima": 19,
+        "nivel_maximo": 13,
+        "data": "29/04/2025"
+    },
+    {
         "nome": "Wagner",
         "pontuacao": 1855,
         "tempo_sobrevivido": 267,
         "wave_maxima": 12,
         "nivel_maximo": 12,
         "data": "28/03/2025"
+    },
+    {
+        "nome": "joselito",
+        "pontuacao": 381,
+        "tempo_sobrevivido": 110,
+        "wave_maxima": 5,
+        "nivel_maximo": 8,
+        "data": "30/04/2025"
+    },
+    {
+        "nome": "ggusta",
+        "pontuacao": 299,
+        "tempo_sobrevivido": 122,
+        "wave_maxima": 6,
+        "nivel_maximo": 7,
+        "data": "08/05/2025"
+    },
+    {
+        "nome": "Pedro",
+        "pontuacao": 155,
+        "tempo_sobrevivido": 86,
+        "wave_maxima": 4,
+        "nivel_maximo": 6,
+        "data": "06/05/2025"
+    },
+    {
+        "nome": "miria",
+        "pontuacao": 62,
+        "tempo_sobrevivido": 42,
+        "wave_maxima": 2,
+        "nivel_maximo": 4,
+        "data": "29/04/2025"
     },
     {
         "nome": "g",

@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='HacknSlash Uninter - Secret Wave',
+    name='HacknSlash - Secret Wave',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

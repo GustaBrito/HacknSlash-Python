@@ -214,7 +214,6 @@ def desenhar_menu(tela, fonte, estado_menu):
             cor_fundo = COR_AZUL_MARINHO_HOVER
         pygame.draw.rect(tela, cor_fundo, botao_rect, border_radius=10)
         tela.blit(texto, (botao_rect.centerx - texto.get_width() // 2, botao_rect.centery - texto.get_height() // 2))
-    # (O estado_menu pode ser usado para efeitos visuais extras)
 
 def desenhar_tela_pausa(tela, fonte):
     """
@@ -232,7 +231,7 @@ def desenhar_tela_pausa(tela, fonte):
     COR_TEXTO_BOTAO = COR_BRANCO  # Texto branco
 
     # Opções do menu de pausa
-    opcoes = ["Continuar", "Menu Principal", "Sair"]  # Texto atualizado
+    opcoes = ["Continuar", "Menu Principal", "Sair"]
     botoes_pausa = []  # Armazenará os retângulos dos botões para verificar cliques
     y_pos = 400  # Posição vertical inicial dos botões
 
@@ -342,7 +341,7 @@ def main():
     # Inicialização do Pygame
     pygame.init()
     tela = pygame.display.set_mode((LARGURA_TELA, ALTURA_TELA))
-    pygame.display.set_caption("Hack'n'Slash Uninter - Secret wave")
+    pygame.display.set_caption("Hack'n'Slash - Secret wave")
     fonte = pygame.font.Font(None, 36)
     clock = pygame.time.Clock()
 

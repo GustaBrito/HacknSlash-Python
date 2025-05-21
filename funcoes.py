@@ -41,8 +41,8 @@ def get_save_path(filename):
         base_path = os.getcwd()
 
     # Define o caminho desejado relativo ao base_path:
-    # "HacknSlashUninter/assets/save"
-    save_dir = os.path.join(base_path, "HacknSlashUninter")
+    # "HacknSlash-SecretWave/assets/save"
+    save_dir = os.path.join(base_path, "HacknSlash-SecretWave")
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     return os.path.join(save_dir, filename)
