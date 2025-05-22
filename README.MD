@@ -1,8 +1,64 @@
-# Hack'n'Slash - Secret wave
+# **Descrição Técnica**
 
-Este é um protótipo de jogo em Python no estilo Hack'n'Slash, onde o 
-herói permanece no centro da tela, enquanto hordas de monstros o perseguem.
+## 🎮 Visão Geral do Jogo
+Hack'n'Slash - Secret Wave é um jogo 2D de ação desenvolvido em Python com Pygame, onde o jogador controla um herói em um mundo repleto de monstros. O jogo inclui sistema de combate, evolução de personagem, waves progressivas e um leaderboard competitivo.
 
+## 📸 Screenshots do Jogo
+
+### 1. HUD do Jogador
+![Status do Jogador](IMG_9021.png)
+- Exibe informações vitais do personagem:
+  - Vida: 12/103
+  - Força: 8
+  - Velocidade: 35
+- Mostra também o nível atual e progresso da wave
+
+### 2. Menu de Evolução
+![Menu de Upgrade](IMG_9025.png)
+Quando o jogador acumula XP suficiente, pode escolher entre:
+1. +20 Vida
+2. +2 Força
+3. +0.5 Velocidade
+
+### 3. Tela de Game Over
+![Game Over](IMG_9026.png)
+Ao morrer, o jogador vê:
+- Estatísticas da partida (tempo, wave alcançada, nível máximo)
+- Opção para digitar seu nome e salvar no leaderboard
+- Botões para voltar ao menu ou sair do jogo
+
+### 4. Leaderboard
+![Placar de Líderes](IMG_9027.png)
+Ranking dos melhores jogadores com:
+- Nome
+- Pontuação
+- Data do recorde
+- Botão para voltar ao menu
+
+## 🛠️ Funcionalidades Principais
+- **Sistema de Combate**: Ataques básicos e habilidade especial
+- **Progressão**: Evolução de atributos (vida, força, velocidade)
+- **Waves**: Inimigos com dificuldade progressiva
+- **Persistência**: Leaderboard salvo em JSON
+- **Build Executável**: Versão compilada para Windows (.exe)
+
+## 📥 Como Jogar
+1. **Controles**:
+   - WASD: Movimento
+   - Clique do Mouse: Ataque básico
+   - Espaço: Habilidade especial
+
+2. **Execução**:
+   ```bash
+   python main.py
+   ```
+   Ou execute o arquivo `HacknSlash-SecretWave.exe` na pasta dist/
+
+## 📌 Destaques Técnicos
+- Arquitetura modular (separação em jogador.py, monstro.py, waves.py)
+- Sistema de save/load para o leaderboard
+- Efeitos visuais de dano e animações fluidas
+- Build automatizada com PyInstaller
 
 # Estrutura do Projeto
 ======================
@@ -145,11 +201,6 @@ HacknSlash-SecretWave/
 └── waves.py   
 └── leaderboard.json                          
 
-
-## Executando
-
-Basta rodar:
-   python main.py
 
 ## Lógica de jogo
 
