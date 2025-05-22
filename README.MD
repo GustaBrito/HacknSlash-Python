@@ -13,7 +13,6 @@ HacknSlash-SecretWave/
 ├── assets/             
 │   └── Drop/   
 │           └── Vida/
-
 │                     └── Vida_1.png
 │                     └── Vida_2.png
 │                     └── Vida_3.png
