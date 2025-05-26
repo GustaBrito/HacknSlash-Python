@@ -1,14 +1,18 @@
+<h1 align="center">
 # 🎮 Hack'n'Slash - Secret Wave
+</h1>
 
 Um jogo 2D de ação desenvolvido em **Python** com **Pygame**, onde o jogador controla um herói em um mundo repleto de monstros.  
 O jogo inclui sistema de **combate**, **evolução de personagem**, **waves progressivas** e um **leaderboard competitivo**.
 
 ---
-
+<p1 align="center">
 ## 📸 Screenshots do Jogo
+</p1>
 
+<p1 align="center">
 ### 🧑‍💻 1. HUD do Jogador  
-<img src="./FotosHacknSlash/inicio.png" alt="Inicio" width="500"/>  
+<img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="500"/>  
 <img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="500"/>  
 
 Exibe informações vitais do personagem:
@@ -17,6 +21,7 @@ Exibe informações vitais do personagem:
 - 🏃 Velocidade: 35
 
 Também mostra o nível atual e o progresso da wave.
+</p1>
 
 ---
 
