@@ -6,18 +6,20 @@ Um jogo 2D de ação desenvolvido em **Python** com **Pygame**, onde o jogador c
 O jogo inclui sistema de **combate**, **evolução de personagem**, **waves progressivas** e um **leaderboard competitivo**.
 
 ---
-<h1 align="center">
+<h3 align="center">
  📸 Screenshots do Jogo
 
+---
+
  🧑‍💻 1. HUD do Jogador  
-</h1>
+</h3>
 
 <div align="center">
 <img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="400" />  
 <img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="400" />  
 </div>
 
-<h3 align="center">
+<h4 align="center">
 Exibe informações vitais do personagem:
 - ❤️ Vida: 12/103
 - 💪 Força: 8
@@ -27,79 +29,104 @@ Também mostra o nível atual e o progresso da wave.
 </h3>
 
 ---
-<h1 align="center">
+<h3 align="center">
  🔧 2. Menu de Evolução  
-</h1>
+</h3>
 
+<div align="center">
 <img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="600"/>  
+</div>
 
+<h4 align="center">
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
 1. ➕ +20 Vida
 2. ➕ +2 Força
 3. ➕ +0.5 Velocidade
+</h4>
 
 ---
-<h1 align="center">
+
+<h3 align="center">
  🔧 3. Ataque Especial 
-</h1>
+</h3>
 
+<div align="center">
 <img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="600" />  
+</div>
 
+<h4 align="center">
 Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial SPACE
+</h4>
 
 ---
 
-<h1 align="center">
+<h3 align="center">
  🔧 4. Jogo Pausado
-</h1>
+</h3>
 
+<div align="center">
 <img src="./FotosHacknSlash/Pause.png" alt="Pause" width="600" />  
+</div>
 
+<h4 align="center">
 Quando o jogador optar, pode apertar ESC para pausar o jogo
+</h4>
 
 ---
 
-<h1 align="center">
+<h3 align="center">
  ☠️ 5. Tela de Game Over  
-</h1>
+</h3>
 
+<div align="center">
 <img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="600" />  
+</div>
 
+<h4 align="center">
 Ao morrer, o jogador vê:
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
 - Opção para digitar seu nome e salvar no leaderboard
 - Botões para voltar ao menu ou sair do jogo
+</h4>
 
 ---
 
-<h1 align="center">
+<h3 align="center">
  🏆 6. Leaderboard
-</h1>
+</h3>
 
+<div align="center">
 <img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="600"/>  
+</div>
 
+<h4 align="center">
 Ranking dos melhores jogadores com:
 - Nome
 - Pontuação
 - Data do recorde
 - Botão para voltar ao menu
+</h4>
 
 ---
-<h1 align="center">
+<h3 align="center">
  🛠️ Funcionalidades Principais
-</h1>
+</h3>
 
+<h4 align="center">
 - ⚔️ **Sistema de Combate**: Ataques básicos e habilidade especial.
 - 📈 **Progressão**: Evolução de atributos (vida, força, velocidade).
 - 🌊 **Waves**: Inimigos com dificuldade progressiva.
 - 💾 **Persistência**: Leaderboard salvo em arquivo `.json`.
 - 🖥️ **Build Executável**: Versão compilada para Windows (`.exe`).
+</h4>
 
 ---
 
-<h1 align="center">
+<h3 align="center">
  📥 Como Jogar
-</h1>
+</h3>
+
+<h4 align="center">
 
  🎮 Controles
 - **WASD**: Movimento
@@ -111,10 +138,13 @@ Ranking dos melhores jogadores com:
 python main.py
 ```
 
+</h4>
+
 ---
-<h1 align="center">
+
+<h3 align="center">
 📌 Destaques Técnicos
-</h1>
+</h3>
 
 🗂️ Arquitetura modular (separação em jogador.py, monstro.py, waves.py).
 
@@ -263,9 +293,9 @@ HacknSlash-SecretWave/
 └── leaderboard.json                
 ```
 
-<h1 align="center">
+<h3 align="center">
 🧠 Lógica de Jogo
-</h1>
+</h3>
 
 🛡️ O herói começa com 100 de vida.
 
