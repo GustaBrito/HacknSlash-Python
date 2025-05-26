@@ -16,14 +16,17 @@ O jogo inclui sistema de **combate**, **evolução de personagem**, **waves prog
 <img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="400" />  
 </div>
 
-<h4 align="center">
+
 Exibe informações vitais do personagem:
+
 - ❤️ Vida: 12/103
+
 - 💪 Força: 8
+
 - 🏃 Velocidade: 35
 
 Também mostra o nível atual e o progresso da wave.
-</h3>
+
 
 ---
 <h3 align="center">
@@ -34,12 +37,15 @@ Também mostra o nível atual e o progresso da wave.
 <img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="600"/>  
 </div>
 
-<h4 align="center">
+
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
+
 1. ➕ +20 Vida
+
 2. ➕ +2 Força
+
 3. ➕ +0.5 Velocidade
-</h4>
+
 
 ---
 
@@ -79,7 +85,6 @@ Quando o jogador optar, pode apertar ESC para pausar o jogo
 <img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="600" />  
 </div>
 
-<h4 align="center">
 Ao morrer, o jogador vê:
 
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
@@ -88,7 +93,6 @@ Ao morrer, o jogador vê:
 
 - Botões para voltar ao menu ou sair do jogo
 
-</h4>
 
 ---
 
@@ -100,20 +104,18 @@ Ao morrer, o jogador vê:
 <img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="600"/>  
 </div>
 
-<h4 align="center">
 Ranking dos melhores jogadores com:
 - Nome
 - Pontuação
 - Data do recorde
 - Botão para voltar ao menu
-</h4>
+
 
 ---
 <h3 align="center">
  🛠️ Funcionalidades Principais
 </h3>
 
-<h4 align="center">
 - ⚔️ **Sistema de Combate**: Ataques básicos e habilidade especial.
 
 - 📈 **Progressão**: Evolução de atributos (vida, força, velocidade).
@@ -124,7 +126,6 @@ Ranking dos melhores jogadores com:
 
 - 🖥️ **Build Executável**: Versão compilada para Windows (`.exe`).
 
-</h4>
 
 ---
 
@@ -132,7 +133,6 @@ Ranking dos melhores jogadores com:
  📥 Como Jogar
 </h3>
 
-<h4 align="center">
 
  🎮 Controles
 - **WASD**: Movimento
@@ -146,7 +146,6 @@ Ranking dos melhores jogadores com:
 python main.py
 ```
 
-</h4>
 
 ---
 
