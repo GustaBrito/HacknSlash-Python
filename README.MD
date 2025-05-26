@@ -12,8 +12,8 @@ O jogo inclui sistema de **combate**, **evolução de personagem**, **waves prog
 ### 🧑‍💻 1. HUD do Jogador  
 </h1>
 
-<img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="450" >  
-<img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="450" />  
+<img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="400" />  
+<img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="400" />  
 
 Exibe informações vitais do personagem:
 - ❤️ Vida: 12/103
