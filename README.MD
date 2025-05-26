@@ -8,7 +8,8 @@ O jogo inclui sistema de **combate**, **evolução de personagem**, **waves prog
 ## 📸 Screenshots do Jogo
 
 ### 🧑‍💻 1. HUD do Jogador  
-<img src="IMG_9021.png" alt="Status do Jogador" width="500"/>  
+<img src="./FotosHacknSlash/inicio.png" alt="Inicio" width="500"/>  
+<img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="500"/>  
 
 Exibe informações vitais do personagem:
 - ❤️ Vida: 12/103
@@ -20,7 +21,7 @@ Também mostra o nível atual e o progresso da wave.
 ---
 
 ### 🔧 2. Menu de Evolução  
-<img src="IMG_9025.png" alt="Menu de Upgrade" width="500"/>  
+<img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="500"/>  
 
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
 1. ➕ +20 Vida
@@ -29,8 +30,21 @@ Quando o jogador acumula **XP suficiente**, pode escolher entre:
 
 ---
 
-### ☠️ 3. Tela de Game Over  
-<img src="IMG_9026.png" alt="Game Over" width="500"/>  
+### 🔧 3. Ataque Especial 
+<img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="500"/>  
+
+Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial SPACE
+
+---
+
+### 🔧 4. Jogo Pausado
+<img src="./FotosHacknSlash/Pause.png" alt="Pause" width="500"/>  
+
+Quando o jogador optar, pode apertar ESC para pausar o jogo
+
+---
+### ☠️ 5. Tela de Game Over  
+<img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="500"/>  
 
 Ao morrer, o jogador vê:
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
@@ -39,8 +53,8 @@ Ao morrer, o jogador vê:
 
 ---
 
-### 🏆 4. Leaderboard  
-<img src="IMG_9027.png" alt="Placar de Líderes" width="500"/>  
+### 🏆 6. Leaderboard  
+<img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="500"/>  
 
 Ranking dos melhores jogadores com:
 - Nome
@@ -83,7 +97,6 @@ python main.py
 
 🛠️ Build automatizada com PyInstaller.
 
-<div align="center">
 ```bash
 HacknSlash-SecretWave/
 │
@@ -122,7 +135,6 @@ HacknSlash-SecretWave/
 ├── waves.py
 └── leaderboard.json
 ```
-</div>
 
 🧠 Lógica de Jogo
 🛡️ O herói começa com 100 de vida.
