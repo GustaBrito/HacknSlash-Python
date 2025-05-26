@@ -1,5 +1,5 @@
 <h1 align="center">
-# 🎮 Hack'n'Slash - Secret Wave
+ 🎮 Hack'n'Slash - Secret Wave
 </h1>
 
 Um jogo 2D de ação desenvolvido em **Python** com **Pygame**, onde o jogador controla um herói em um mundo repleto de monstros.  
@@ -7,24 +7,28 @@ O jogo inclui sistema de **combate**, **evolução de personagem**, **waves prog
 
 ---
 <h1 align="center">
-## 📸 Screenshots do Jogo
+ 📸 Screenshots do Jogo
 
-### 🧑‍💻 1. HUD do Jogador  
+ 🧑‍💻 1. HUD do Jogador  
 </h1>
 
+<div align="center">
 <img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="400" />  
 <img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="400" />  
+</div>
 
+<h3 align="center">
 Exibe informações vitais do personagem:
 - ❤️ Vida: 12/103
 - 💪 Força: 8
 - 🏃 Velocidade: 35
 
 Também mostra o nível atual e o progresso da wave.
+</h3>
 
 ---
 <h1 align="center">
-### 🔧 2. Menu de Evolução  
+ 🔧 2. Menu de Evolução  
 </h1>
 
 <img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="600"/>  
@@ -36,7 +40,7 @@ Quando o jogador acumula **XP suficiente**, pode escolher entre:
 
 ---
 <h1 align="center">
-### 🔧 3. Ataque Especial 
+ 🔧 3. Ataque Especial 
 </h1>
 
 <img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="600" />  
@@ -46,7 +50,7 @@ Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial 
 ---
 
 <h1 align="center">
-### 🔧 4. Jogo Pausado
+ 🔧 4. Jogo Pausado
 </h1>
 
 <img src="./FotosHacknSlash/Pause.png" alt="Pause" width="600" />  
@@ -56,7 +60,7 @@ Quando o jogador optar, pode apertar ESC para pausar o jogo
 ---
 
 <h1 align="center">
-### ☠️ 5. Tela de Game Over  
+ ☠️ 5. Tela de Game Over  
 </h1>
 
 <img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="600" />  
@@ -69,7 +73,7 @@ Ao morrer, o jogador vê:
 ---
 
 <h1 align="center">
-### 🏆 6. Leaderboard
+ 🏆 6. Leaderboard
 </h1>
 
 <img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="600"/>  
@@ -82,7 +86,7 @@ Ranking dos melhores jogadores com:
 
 ---
 <h1 align="center">
-## 🛠️ Funcionalidades Principais
+ 🛠️ Funcionalidades Principais
 </h1>
 
 - ⚔️ **Sistema de Combate**: Ataques básicos e habilidade especial.
@@ -94,15 +98,15 @@ Ranking dos melhores jogadores com:
 ---
 
 <h1 align="center">
-## 📥 Como Jogar
+ 📥 Como Jogar
 </h1>
 
-### 🎮 Controles
+ 🎮 Controles
 - **WASD**: Movimento
 - **Clique do Mouse**: Ataque básico
 - **Espaço**: Habilidade especial
 
-### 🚀 Execução
+ 🚀 Execução
 ```bash
 python main.py
 ```
