@@ -84,7 +84,7 @@ python main.py
 🛠️ Build automatizada com PyInstaller.
 
 <div align="center">
-```
+```bash
 HacknSlash-SecretWave/
 │
 ├── assets/
