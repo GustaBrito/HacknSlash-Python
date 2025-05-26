@@ -8,10 +8,10 @@ O jogo inclui sistema de **combate**, **evolução de personagem**, **waves prog
 ---
 <h1 align="center">
 ## 📸 Screenshots do Jogo
+
+### 🧑‍💻 1. HUD do Jogador  
 </h1>
 
-<h1 align="center">
-### 🧑‍💻 1. HUD do Jogador  
 <img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="500" align="center"/>  
 <img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="500" align="center"/>  
 
@@ -21,11 +21,12 @@ Exibe informações vitais do personagem:
 - 🏃 Velocidade: 35
 
 Também mostra o nível atual e o progresso da wave.
-</h1>
 
 ---
-
+<h1 align="center">
 ### 🔧 2. Menu de Evolução  
+</h1>
+
 <img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="500" align="center"/>  
 
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
@@ -34,21 +35,30 @@ Quando o jogador acumula **XP suficiente**, pode escolher entre:
 3. ➕ +0.5 Velocidade
 
 ---
-
+<h1 align="center">
 ### 🔧 3. Ataque Especial 
+</h1>
+
 <img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="500" align="center"/>  
 
 Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial SPACE
 
 ---
 
+<h1 align="center">
 ### 🔧 4. Jogo Pausado
+</h1>
+
 <img src="./FotosHacknSlash/Pause.png" alt="Pause" width="500" align="center"/>  
 
 Quando o jogador optar, pode apertar ESC para pausar o jogo
 
 ---
+
+<h1 align="center">
 ### ☠️ 5. Tela de Game Over  
+</h1>
+
 <img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="500" align="center"/>  
 
 Ao morrer, o jogador vê:
@@ -58,7 +68,10 @@ Ao morrer, o jogador vê:
 
 ---
 
-### 🏆 6. Leaderboard  
+<h1 align="center">
+### 🏆 6. Leaderboard
+</h1>
+
 <img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="500" align="center"/>  
 
 Ranking dos melhores jogadores com:
@@ -68,8 +81,9 @@ Ranking dos melhores jogadores com:
 - Botão para voltar ao menu
 
 ---
-
+<h1 align="center">
 ## 🛠️ Funcionalidades Principais
+</h1>
 
 - ⚔️ **Sistema de Combate**: Ataques básicos e habilidade especial.
 - 📈 **Progressão**: Evolução de atributos (vida, força, velocidade).
@@ -79,7 +93,9 @@ Ranking dos melhores jogadores com:
 
 ---
 
+<h1 align="center">
 ## 📥 Como Jogar
+</h1>
 
 ### 🎮 Controles
 - **WASD**: Movimento
@@ -92,8 +108,10 @@ python main.py
 ```
 
 ---
-
+<h1 align="center">
 📌 Destaques Técnicos
+</h1>
+
 🗂️ Arquitetura modular (separação em jogador.py, monstro.py, waves.py).
 
 💾 Sistema de save/load para o leaderboard.
