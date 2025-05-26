@@ -6,11 +6,8 @@ Um jogo 2D de ação desenvolvido em **Python** com **Pygame**, onde o jogador c
 O jogo inclui sistema de **combate**, **evolução de personagem**, **waves progressivas** e um **leaderboard competitivo**.
 
 ---
+
 <h3 align="center">
- 📸 Screenshots do Jogo
-
----
-
  🧑‍💻 1. HUD do Jogador  
 </h3>
 
@@ -84,9 +81,13 @@ Quando o jogador optar, pode apertar ESC para pausar o jogo
 
 <h4 align="center">
 Ao morrer, o jogador vê:
+
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
+
 - Opção para digitar seu nome e salvar no leaderboard
+
 - Botões para voltar ao menu ou sair do jogo
+
 </h4>
 
 ---
@@ -114,10 +115,15 @@ Ranking dos melhores jogadores com:
 
 <h4 align="center">
 - ⚔️ **Sistema de Combate**: Ataques básicos e habilidade especial.
+
 - 📈 **Progressão**: Evolução de atributos (vida, força, velocidade).
+
 - 🌊 **Waves**: Inimigos com dificuldade progressiva.
+
 - 💾 **Persistência**: Leaderboard salvo em arquivo `.json`.
+
 - 🖥️ **Build Executável**: Versão compilada para Windows (`.exe`).
+
 </h4>
 
 ---
@@ -130,7 +136,9 @@ Ranking dos melhores jogadores com:
 
  🎮 Controles
 - **WASD**: Movimento
+
 - **Clique do Mouse**: Ataque básico
+
 - **Espaço**: Habilidade especial
 
  🚀 Execução
