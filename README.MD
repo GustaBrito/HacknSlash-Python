@@ -27,7 +27,7 @@ Também mostra o nível atual e o progresso da wave.
 ### 🔧 2. Menu de Evolução  
 </h1>
 
-<img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="500"/>  
+<img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="600"/>  
 
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
 1. ➕ +20 Vida
@@ -39,7 +39,7 @@ Quando o jogador acumula **XP suficiente**, pode escolher entre:
 ### 🔧 3. Ataque Especial 
 </h1>
 
-<img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="500" />  
+<img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="600" />  
 
 Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial SPACE
 
@@ -49,7 +49,7 @@ Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial 
 ### 🔧 4. Jogo Pausado
 </h1>
 
-<img src="./FotosHacknSlash/Pause.png" alt="Pause" width="500" />  
+<img src="./FotosHacknSlash/Pause.png" alt="Pause" width="600" />  
 
 Quando o jogador optar, pode apertar ESC para pausar o jogo
 
@@ -59,7 +59,7 @@ Quando o jogador optar, pode apertar ESC para pausar o jogo
 ### ☠️ 5. Tela de Game Over  
 </h1>
 
-<img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="500" />  
+<img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="600" />  
 
 Ao morrer, o jogador vê:
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
@@ -72,7 +72,7 @@ Ao morrer, o jogador vê:
 ### 🏆 6. Leaderboard
 </h1>
 
-<img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="500"/>  
+<img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="600"/>  
 
 Ranking dos melhores jogadores com:
 - Nome
