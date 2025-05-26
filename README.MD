@@ -6,14 +6,14 @@ Um jogo 2D de ação desenvolvido em **Python** com **Pygame**, onde o jogador c
 O jogo inclui sistema de **combate**, **evolução de personagem**, **waves progressivas** e um **leaderboard competitivo**.
 
 ---
-<p1 align="center">
+<h1 align="center">
 ## 📸 Screenshots do Jogo
-</p1>
+</h1>
 
-<p1 align="center">
+<h1 align="center">
 ### 🧑‍💻 1. HUD do Jogador  
-<img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="500"/>  
-<img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="500"/>  
+<img src="./FotosHacknSlash/Inicio.png" alt="Inicio" width="500" align="center"/>  
+<img src="./FotosHacknSlash/Interface.png" alt="Interface do Jogador" width="500" align="center"/>  
 
 Exibe informações vitais do personagem:
 - ❤️ Vida: 12/103
@@ -21,12 +21,12 @@ Exibe informações vitais do personagem:
 - 🏃 Velocidade: 35
 
 Também mostra o nível atual e o progresso da wave.
-</p1>
+</h1>
 
 ---
 
 ### 🔧 2. Menu de Evolução  
-<img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="500"/>  
+<img src="./FotosHacknSlash/Nivel.png" alt="Menu de Upgrade" width="500" align="center"/>  
 
 Quando o jogador acumula **XP suficiente**, pode escolher entre:
 1. ➕ +20 Vida
@@ -36,20 +36,20 @@ Quando o jogador acumula **XP suficiente**, pode escolher entre:
 ---
 
 ### 🔧 3. Ataque Especial 
-<img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="500"/>  
+<img src="./FotosHacknSlash/AtaqueEsp.png" alt="Especial" width="500" align="center"/>  
 
 Quando o jogador acumula **Pontos o suficiente**, pode ativar o ataque especial SPACE
 
 ---
 
 ### 🔧 4. Jogo Pausado
-<img src="./FotosHacknSlash/Pause.png" alt="Pause" width="500"/>  
+<img src="./FotosHacknSlash/Pause.png" alt="Pause" width="500" align="center"/>  
 
 Quando o jogador optar, pode apertar ESC para pausar o jogo
 
 ---
 ### ☠️ 5. Tela de Game Over  
-<img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="500"/>  
+<img src="./FotosHacknSlash/GameOver.png" alt="Game Over" width="500" align="center"/>  
 
 Ao morrer, o jogador vê:
 - Estatísticas da partida (tempo, wave alcançada, nível máximo)
@@ -59,7 +59,7 @@ Ao morrer, o jogador vê:
 ---
 
 ### 🏆 6. Leaderboard  
-<img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="500"/>  
+<img src="./FotosHacknSlash/Placar.png" alt="Placar de Líderes" width="500" align="center"/>  
 
 Ranking dos melhores jogadores com:
 - Nome
@@ -103,45 +103,148 @@ python main.py
 🛠️ Build automatizada com PyInstaller.
 
 ```bash
-HacknSlash-SecretWave/
+HacknSlash-SecretWave/                         
 │
-├── assets/
-│   ├── Drop/
-│   │   ├── Vida/
-│   │   └── XP/
-│   ├── Efeito_espada/
-│   ├── Fogo/
-│   ├── fonts/
-│   ├── Heroi/
-│   │   ├── 01-Parado/
-│   │   ├── 02-Corrida/
-│   │   ├── 03-Ataque/No_Effect/
-│   │   ├── 04-Dano/
-│   │   └── 05-Morte/
-│   ├── Menu/
-│   ├── Monstro/
-│   │   ├── Monstro_Andando/
-│   │   └── Monstro_Hit/
-│   ├── Mouse/
-│   │   ├── Click/
-│   │   └── Idle/
-│   ├── Sons/
-│   ├── fundo_tile.png
-│   ├── icon.png
-│   └── icon.ico
+├── assets/             
+│   └── Drop/   
+│           └── Vida/
+│                     └── Vida_1.png
+│                     └── Vida_2.png
+│                     └── Vida_3.png
+│                     └── Vida_4.png
+│                     └── Vida_5.png
+│                     └── Vida_6.png
+│                     └── Vida_7.png
+│                     └── Vida_8.png
+│           └── XP/
+│                     └── XP_1.png
+│                     └── XP_2.png
+│                     └── XP_3.png
+│                     └── XP_4.png
+│                     └── XP_5.png
+│                     └── XP_6.png
+│                     └── XP_7.png
+│                     └── XP_8.png
+│                     └── XP_9.png
+│                     └── XP_10.png             
+│   └── Efeito_espada/   
+│           └── Corte_1.png
+│           └── Corte_2.png
+│           └── Corte_3.png
+│           └── Corte_4.png
+│           └── Corte_5.png
+│           └── Corte_6.png        
+│   └── Fogo/   
+│           └── Fogo_1.png
+│           └── Fogo_2.png
+│           └── Fogo_3.png
+│           └── Fogo_4.png
+│           └── Fogo_5.png
+│           └── Fogo_6.png   
+│           └── Fogo_7.png
+│           └── Fogo_8.png
+│           └── Fogo_9.png
+│           └── Fogo_10.png
+│           └── Fogo_11.png
+│           └── Fogo_12.png   
+│   └── fonts/  
+|            └── Bitwise.ttf
+│   └── Heroi/
+│           └── 01-Parado/
+│                     └── Parado_1.png
+│                     └── Parado_2.png
+│                     └── Parado_3.png
+│                     └── Parado_4.png
+│                     └── Parado_5.png
+│                     └── Parado_6.png
+│                     └── Parado_7.png
+│                     └── Parado_8.png
+│                     └── Parado_9.png
+│                     └── Parado_10.png
+│                     └── Parado_11.png
+│                     └── Parado_12.png
+│           └── 02-Corrida/
+│                     └── Corrida_1.png
+│                     └── Corrida_2.png
+│                     └── Corrida_3.png
+│                     └── Corrida_4.png
+│                     └── Corrida_5.png
+│                     └── Corrida_6.png
+│                     └── Corrida_7.png
+│                     └── Corrida_8.png
+│                     └── Corrida_9.png
+│                     └── Corrida_10.png
+│           └── 03-Ataque/
+│                     └── No_Effect/
+│                     			└── Ataque_1.png
+│                     			└── Ataque_2.png
+│                     			└── Ataque_3.png
+│                     			└── Ataque_4.png
+│                     			└── Ataque_5.png
+│                     			└── Ataque_6.png
+│                     			└── Ataque_7.png
+│                     			└── Ataque_8.png
+│           └── 04-Dano/
+│                     └── Dano_1.png
+│                     └── Dano_2.png
+│                     └── Dano_3.png
+│                     └── Dano_4.png
+│                     └── Dano_5.png
+│                     └── Dano_6.png
+│           └── 05-Morte/
+│                     └── Morte_1.png
+│                     └── Morte_2.png
+│                     └── Morte_3.png
+│                     └── Morte_4.png
+│                     └── Morte_5.png
+│                     └── Morte_6.png
+│                     └── Morte_7.png
+│                     └── Morte_8.png
+│   └── Menu/
+│           └── Menu_1.png
+│           └── Menu_2.png
+│           └── Menu_3.png
+│           └── Menu_4.png
+│           └── Menu_5.png
+│           └── trofeu_1.png
+│   └── Monstro/
+│           └── Monstro_Andando/
+│                     └── Andando_1.png
+│                     └── Andando_2.png
+│           └── Monstro_Hit/
+│                     └── hit_6.png
+│   └── Mouse/
+│           └── Click/
+│                     └── Click_1.png
+│           └── Idle/
+│                     └── Indle_1.png
+│   └── Sons/
+│           └── ataque.mp3
+│           └── fire_ataque.mp3
+│           └── game_over.mp3
+│           └── level_up.mp3
+│           └── musica_fundo.mp3
+│           └── start.mp3
+│   └── fundo_tile.png  
+│   └── icon.png     
+│   └── icon.ico                
 │
-├── configuracoes.py
-├── funcoes.py
-├── hud.py
-├── jogador.py
-├── main.ico
-├── monstro.spec
-├── README.md
-├── waves.py
-└── leaderboard.json
+│
+├── configuracoes.py                          
+├── funcoes.py                       
+├── hud.py                          
+├── jogador.py                       
+├── main.ico                    
+├── monstro.spec                  
+├── README.md                      
+└── waves.py   
+└── leaderboard.json                
 ```
 
+<h1 align="center">
 🧠 Lógica de Jogo
+</h1>
+
 🛡️ O herói começa com 100 de vida.
 
 🖱️ Cada golpe com o clique do mouse realiza um ataque que causa dano aos inimigos.
