@@ -70,6 +70,7 @@ Ranking dos melhores jogadores com:
 ### 🚀 Execução
 ```bash
 python main.py
+```
 
 ---
 
@@ -83,6 +84,7 @@ python main.py
 🛠️ Build automatizada com PyInstaller.
 
 <div align="center">
+```
 HacknSlash-SecretWave/
 │
 ├── assets/
@@ -119,6 +121,7 @@ HacknSlash-SecretWave/
 ├── README.md
 ├── waves.py
 └── leaderboard.json
+```
 </div>
 
 🧠 Lógica de Jogo
